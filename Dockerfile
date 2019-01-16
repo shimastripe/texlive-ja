@@ -13,4 +13,4 @@ MAINTAINER shimastripe
 RUN apk --no-cache add perl-dev perl-utils gcc musl-dev make curl && \
   cpan -i Log::Log4perl Log::Dispatch::File YAML::Tiny File::HomeDir && \
   tlmgr update --self && \
-  tlmgr install latexindent synctex texcount chktex
+  tlmgr install latexindent synctex texcount chktex algorithmicx algorithms
